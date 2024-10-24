@@ -12,5 +12,5 @@ document.getElementById("infoURL").textContent = window.location.href
 //Fem les funcions
 function comencaPartida(){
     nomjugador = document.getElementById("nomi").value
-    window.location.href = "joc.html"
+    console.log(nomjugador)
 }
