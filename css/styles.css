@@ -2,4 +2,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+section *{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
